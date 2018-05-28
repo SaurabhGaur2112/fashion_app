@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffc9c9c9"
+    android:padding="8dp"
+    tools:context="com.example.gaursaurabh.faspire.ProfileFashionStylist">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/stylist_profileImg"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:adjustViewBounds="true"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="2dp"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        style="@style/joinTxt"
+                        android:textSize="14dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/stylist_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/textStyleSetProfile"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Year Active"
+                        style="@style/joinTxt"
+                        android:layout_marginTop="2dp"
+                        android:textSize="14dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/stylist_yearActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/textStyleSetProfile"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:id="@+id/fashion_stylist_facebook_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/facebook"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    />
+
+                <ImageView
+                    android:id="@+id/fashion_stylist_twitter_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/twitter"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    />
+
+                <ImageView
+                    android:id="@+id/fashion_stylist_instagram_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/insta"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    />
+
+                <ImageView
+                    android:id="@+id/fashion_stylist_website_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/web"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    />
+
+                <ImageView
+                    android:id="@+id/fashion_stylist_contact_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/contact"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About me"
+                style="@style/joinTxt"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/stylist_aboutMe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="13dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Experience"
+                style="@style/joinTxt"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/stylist_experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="13dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Portfolio"
+                style="@style/joinTxt"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:id="@+id/stylist_portfolioFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/stylist_portfolioSecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/stylist_portfolioThird"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/stylist_portfolioFourth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/stylist_portfolioFifth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/stylist_portfolioSixth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                style="@style/joinTxt"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:id="@+id/stylist_galleryFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/stylist_gallerySecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/stylist_galleryThird"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/stylist_galleryFourth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/stylist_galleryFifth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/stylist_gallerySixth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Video"
+                style="@style/joinTxt"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/stylist_videoFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

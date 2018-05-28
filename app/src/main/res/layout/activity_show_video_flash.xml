@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffc9c9c9"
+    tools:context="com.example.gaursaurabh.faspire.ShowVideoFlash">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/flashshow_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/flashshow_headline_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/newsheadlinewrite"
+                />
+
+            <TextView
+                android:id="@+id/flashshow_description_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/newsdescriptionwrite"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

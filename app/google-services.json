@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "240677952544",
+    "firebase_url": "https://faspire-4e2ea.firebaseio.com",
+    "project_id": "faspire-4e2ea",
+    "storage_bucket": "faspire-4e2ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240677952544:android:e9907d01fe717545",
+        "android_client_info": {
+          "package_name": "com.example.gaursaurabh.faspire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240677952544-t478tpsllosb520mpg9khqm44vjmekfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFudZJE81hRunFtl9__yRibGMVfisrxic"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

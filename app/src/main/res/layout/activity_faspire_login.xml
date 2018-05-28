@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.gaursaurabh.faspire.FaspireLogin">
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/login_logo"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        >
+
+
+        <EditText
+            android:id="@+id/login_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:hint="Enter Register Mobile Number"
+            android:textColorHint="#000000"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:inputType="number"
+            android:background="@drawable/editable_border"
+            android:padding="10dp"
+            />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_border"
+            android:layout_marginTop="12dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

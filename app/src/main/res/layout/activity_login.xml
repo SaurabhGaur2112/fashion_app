@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.gaursaurabh.faspire.LoginActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/wallnitstartgif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/faspire_welcome"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:id="@+id/signupLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_signup"
+            android:layout_marginBottom="10dp"
+            android:tint="#C0C0C0"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGNUP"
+            android:textColor="#C0C0C0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            />
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/loginLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="#C0C0C0"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:tint="#C0C0C0"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        />
+
+</RelativeLayout>

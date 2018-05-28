@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffc9c9c9"
+    android:padding="8dp"
+    tools:context="com.example.gaursaurabh.faspire.ProfileYouthActor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/youth_ac_profileImg"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:adjustViewBounds="true"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="2dp"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        style="@style/joinTxt"
+                        android:textSize="14dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/youth_ac_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/textStyleSetProfile"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gender"
+                        style="@style/joinTxt"
+                        android:textSize="14dp"
+                        android:layout_marginTop="2dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/youth_ac_gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/textStyleSetProfile"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="City"
+                        style="@style/joinTxt"
+                        android:layout_marginTop="2dp"
+                        android:textSize="14dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/youth_ac_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/textStyleSetProfile"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Style"
+                        style="@style/joinTxt"
+                        android:layout_marginTop="2dp"
+                        android:textSize="14dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/youth_ac_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/textStyleSetProfile"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:id="@+id/youth_actor_facebook_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/facebook"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    />
+
+                <ImageView
+                    android:id="@+id/youth_actor_twitter_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/twitter"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    />
+
+                <ImageView
+                    android:id="@+id/youth_actor_instagram_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/insta"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    />
+
+                <ImageView
+                    android:id="@+id/youth_actor_website_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/web"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    />
+
+                <ImageView
+                    android:id="@+id/youth_actor_contact_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/contact"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Year Active"
+                style="@style/joinTxt"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/youth_ac_yearActive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="13dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Language"
+                style="@style/joinTxt"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/youth_ac_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="13dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_weight="1"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Height"
+                        style="@style/joinTxt"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/youth_ac_height"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="13dp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Waste"
+                        style="@style/joinTxt"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/youth_ac_waste"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="13dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Eye color"
+                        style="@style/joinTxt"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/youth_ac_eyeColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="13dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chest or Brest"
+                        style="@style/joinTxt"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/youth_ac_chestBrest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="13dp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hair color"
+                        style="@style/joinTxt"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/youth_ac_hairColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="13dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Shoe size"
+                        style="@style/joinTxt"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/youth_ac_shoeSize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="13dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Experience"
+                style="@style/joinTxt"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/youth_ac_experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="13dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biography"
+                style="@style/joinTxt"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/youth_ac_biography"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="13dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Portfolio"
+                style="@style/joinTxt"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:id="@+id/youth_ac_portfolioImgFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/youth_ac_portfolioImgSecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/youth_ac_portfolioImgThird"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/youth_ac_portfolioImgFourth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/youth_ac_portfolioImgFifth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/youth_ac_portfolioImgSixth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                style="@style/joinTxt"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:id="@+id/youth_ac_galleryImgFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/youth_ac_galleryImgSecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/youth_ac_galleryImgThird"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/youth_ac_galleryImgFourth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/youth_ac_galleryImgFifth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/youth_ac_galleryImgSixth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Video"
+                style="@style/joinTxt"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youth_ac_videoFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

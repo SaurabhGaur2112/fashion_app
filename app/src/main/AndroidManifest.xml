@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gaursaurabh.faspire">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".Cache.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FaspireStart" />
+        <activity
+            android:name=".FaspireJoin"
+            android:label="Join"
+            android:parentActivityName=".FaspireJoin">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireJoin" />
+        </activity>
+        <activity
+            android:name=".FaspireHome"
+            android:label="@string/title_activity_faspire_home"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".FaspireNews"
+            android:label="Fashion News"
+            android:parentActivityName=".FaspireNews">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireNews" />
+        </activity>
+        <activity
+            android:name=".FlashBack"
+            android:label="Fashion Tips"
+            android:parentActivityName=".FlashBack">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FlashBack" />
+        </activity>
+        <activity
+            android:name=".TrendsAndUpdate"
+            android:label="Trends and updates"
+            android:parentActivityName=".TrendsAndUpdate">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TrendsAndUpdate" />
+        </activity>
+        <activity
+            android:name=".Boutique"
+            android:label="Fashion House"
+            android:parentActivityName=".Boutique">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Boutique" />
+        </activity>
+        <activity
+            android:name=".Designer"
+            android:label="Designers"
+            android:parentActivityName=".Designer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Designer" />
+        </activity>
+        <activity
+            android:name=".CelebrityDesigner"
+            android:label="Celebrity Designer"
+            android:parentActivityName=".CelebrityDesigner">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CelebrityDesigner" />
+        </activity>
+        <activity
+            android:name=".FaspireActor"
+            android:label="Actor"
+            android:parentActivityName=".FaspireActor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireActor" />
+        </activity>
+        <activity
+            android:name=".FaspireModel"
+            android:label="Model"
+            android:parentActivityName=".FaspireModel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireModel" />
+        </activity>
+        <activity
+            android:name=".Faspire_Makeup"
+            android:label="Makeup Artists"
+            android:parentActivityName=".Faspire_Makeup">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Faspire_Makeup" />
+        </activity>
+        <activity
+            android:name=".Photographer"
+            android:label="Photographers"
+            android:parentActivityName=".Photographer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Photographer" />
+        </activity>
+        <activity android:name=".MrFaspire" />
+        <activity android:name=".MrsFaspire" />
+        <activity
+            android:name=".ContactMe"
+            android:label="Contact"
+            android:parentActivityName=".ContactMe">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ContactMe" />
+        </activity>
+        <activity
+            android:name=".FashionStylist"
+            android:label="Stylists and Bloggers"
+            android:parentActivityName=".FashionStylist">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FashionStylist" />
+        </activity>
+        <activity
+            android:name=".FaspirePeople"
+            android:label="Faspire People"
+            android:parentActivityName=".FaspirePeople">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspirePeople" />
+        </activity>
+        <activity
+            android:name=".ProfileFaspirePeople"
+            android:label="Faspire People"
+            android:parentActivityName=".FaspirePeople">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspirePeople" />
+        </activity>
+        <activity
+            android:name=".ProfileFashionStylist"
+            android:label="Fashion Stylist"
+            android:parentActivityName=".FashionStylist">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FashionStylist" />
+        </activity>
+        <activity
+            android:name=".ProfilePhotography"
+            android:label="Photographer"
+            android:parentActivityName=".Photographer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Photographer" />
+        </activity>
+        <activity
+            android:name=".ProfileMakeupArtist"
+            android:label="Makeup Artist"
+            android:parentActivityName=".Faspire_Makeup">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Faspire_Makeup" />
+        </activity>
+        <activity
+            android:name=".ProfileModel"
+            android:label="Model"
+            android:parentActivityName=".FaspireModel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireModel" />
+        </activity>
+        <activity
+            android:name=".ProfileActor"
+            android:label="Actors"
+            android:parentActivityName=".FaspireActor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireActor" />
+        </activity>
+        <activity
+            android:name=".ProfileCelebrityDesigner"
+            android:label="Celebrity Designer"
+            android:parentActivityName=".CelebrityDesigner">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CelebrityDesigner" />
+        </activity>
+        <activity
+            android:name=".ProfileDesigner"
+            android:label="Designer"
+            android:parentActivityName=".Designer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Designer" />
+        </activity>
+        <activity
+            android:name=".ProfileBoutique"
+            android:label="Boutique"
+            android:parentActivityName=".Boutique" />
+        <activity
+            android:name=".ShowImageNews"
+            android:label="News"
+            android:parentActivityName=".FaspireNews">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireNews" />
+        </activity>
+        <activity
+            android:name=".ShowVideoNews"
+            android:label="News"
+            android:parentActivityName=".FaspireNews">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireNews" />
+        </activity>
+        <activity
+            android:name=".ShowImageTrends"
+            android:label="Trends"
+            android:parentActivityName=".ShowImageTrends">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ShowImageTrends" />
+        </activity>
+        <activity
+            android:name=".ShowVideoTrends"
+            android:label="Trends"
+            android:parentActivityName=".ShowVideoTrends">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ShowVideoTrends" />
+        </activity>
+        <activity
+            android:name=".ShowImageFlash"
+            android:label="Flash Back"
+            android:parentActivityName=".ShowImageFlash">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ShowImageFlash" />
+        </activity>
+        <activity
+            android:name=".ShowVideoFlash"
+            android:label="Flash Back"
+            android:parentActivityName=".ShowVideoFlash">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ShowVideoFlash" />
+        </activity>
+        <activity
+            android:name=".AssociatesAndPartners"
+            android:label="Associates"
+            android:parentActivityName=".AssociatesAndPartners">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AssociatesAndPartners" />
+        </activity>
+        <activity
+            android:name=".Sponsours"
+            android:label="Sponsors"
+            android:parentActivityName=".Sponsours">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Sponsours" />
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="About us"
+            android:parentActivityName=".AboutUs">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AboutUs" />
+        </activity>
+        <activity
+            android:name=".Services"
+            android:label="Services"
+            android:parentActivityName=".Services">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Services" />
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="Contact us"
+            android:parentActivityName=".ContactUs">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ContactUs" />
+        </activity>
+        <activity
+            android:name=".TermsAndConditions"
+            android:label="Terms and Conditions"
+            android:parentActivityName=".TermsAndConditions">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TermsAndConditions" />
+        </activity>
+        <activity
+            android:name=".WelcomeScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DesignerCategory"
+            android:label="Designer"
+            android:parentActivityName=".DesignerCategory">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DesignerCategory" />
+        </activity>
+        <activity
+            android:name=".ActorCategory"
+            android:label="Actor"
+            android:parentActivityName=".ActorCategory">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActorCategory" />
+        </activity>
+        <activity
+            android:name=".ModelCategory"
+            android:label="Models"
+            android:parentActivityName=".ModelCategory">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ModelCategory" />
+        </activity>
+        <activity
+            android:name=".MakeupArtistCategory"
+            android:label="Makeup Artist"
+            android:parentActivityName=".MakeupArtistCategory">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MakeupArtistCategory" />
+        </activity>
+        <activity
+            android:name=".PhotographerCategory"
+            android:label="Photographer"
+            android:parentActivityName=".PhotographerCategory">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PhotographerCategory" />
+        </activity>
+        <activity
+            android:name=".FaspireYouthDesigner"
+            android:label="Youth Designer"
+            android:parentActivityName=".FaspireYouthDesigner">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireYouthDesigner" />
+        </activity>
+        <activity
+            android:name=".FaspireProfessionalDesigner"
+            android:label="Professional Designer"
+            android:parentActivityName=".FaspireProfessionalDesigner">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireProfessionalDesigner" />
+        </activity>
+        <activity
+            android:name=".FaspireYouthActor"
+            android:label="Youth Actor"
+            android:parentActivityName=".FaspireYouthActor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireYouthActor" />
+        </activity>
+        <activity
+            android:name=".FaspireTheatorActor"
+            android:label="Theator Actor"
+            android:parentActivityName=".FaspireTheatorActor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireTheatorActor" />
+        </activity>
+        <activity
+            android:name=".FaspireBigScreenActor"
+            android:label="Big Screen Actor"
+            android:parentActivityName=".FaspireBigScreenActor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireBigScreenActor" />
+        </activity>
+        <activity
+            android:name=".FaspireYouthModel"
+            android:label="Youth Model"
+            android:parentActivityName=".FaspireYouthModel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireYouthModel" />
+        </activity>
+        <activity
+            android:name=".FaspireProfessionalModel"
+            android:label="Professional Model"
+            android:parentActivityName=".FaspireProfessionalModel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireProfessionalModel" />
+        </activity>
+        <activity
+            android:name=".FaspireSeniorModel"
+            android:label="Child Model"
+            android:parentActivityName=".FaspireSeniorModel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireSeniorModel" />
+        </activity>
+        <activity
+            android:name=".FaspireYouthMakeup"
+            android:label="Youth Makeup Artist"
+            android:parentActivityName=".FaspireYouthMakeup">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireYouthMakeup" />
+        </activity>
+        <activity
+            android:name=".FaspireProfessionalMakeup"
+            android:label="Professional Makeup Artist"
+            android:parentActivityName=".FaspireProfessionalMakeup">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireProfessionalMakeup" />
+        </activity>
+        <activity
+            android:name=".FaspireYouthPhotographer"
+            android:label="Youth Photographer"
+            android:parentActivityName=".FaspireYouthPhotographer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireYouthPhotographer" />
+        </activity>
+        <activity
+            android:name=".FaspireProfessionalPhotographer"
+            android:label="Professional Photographer"
+            android:parentActivityName=".FaspireProfessionalPhotographer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireProfessionalPhotographer" />
+        </activity>
+        <activity
+            android:name=".FaspireFashionStudio"
+            android:label="Fashion Studio"
+            android:parentActivityName=".FaspireFashionStudio">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireFashionStudio" />
+        </activity>
+        <activity
+            android:name=".ProfileYouthDesigner"
+            android:label="Youth Designer"
+            android:parentActivityName=".ProfileYouthDesigner">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileYouthDesigner" />
+        </activity>
+        <activity
+            android:name=".ProfileProfessionalDesigner"
+            android:label="Professional Designer"
+            android:parentActivityName=".ProfileProfessionalDesigner">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileProfessionalDesigner" />
+        </activity>
+        <activity
+            android:name=".ProfileYouthActor"
+            android:label="Youth Actor"
+            android:parentActivityName=".ProfileYouthActor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileYouthActor" />
+        </activity>
+        <activity
+            android:name=".ProfileTheatorActor"
+            android:label="Theator Actor"
+            android:parentActivityName=".ProfileTheatorActor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileTheatorActor" />
+        </activity>
+        <activity
+            android:name=".ProfileBigScreenActor"
+            android:label="Big Screen Actor"
+            android:parentActivityName=".ProfileBigScreenActor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileBigScreenActor" />
+        </activity>
+        <activity
+            android:name=".ProfileYouthModel"
+            android:label="Youth Model"
+            android:parentActivityName=".ProfileYouthModel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileYouthModel" />
+        </activity>
+        <activity
+            android:name=".ProfileProfessionalModel"
+            android:label="Professional Model"
+            android:parentActivityName=".ProfileProfessionalModel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileProfessionalModel" />
+        </activity>
+        <activity
+            android:name=".ProfileSeniorModel"
+            android:label="Child Model"
+            android:parentActivityName=".ProfileSeniorModel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileSeniorModel" />
+        </activity>
+        <activity
+            android:name=".ProfileYouthMakeup"
+            android:label="Youth Makeup Artist"
+            android:parentActivityName=".ProfileYouthMakeup">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileYouthMakeup" />
+        </activity>
+        <activity
+            android:name=".ProfileProfessionalMakeup"
+            android:label="Professional Makeup Artist"
+            android:parentActivityName=".ProfileProfessionalMakeup">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileProfessionalMakeup" />
+        </activity>
+        <activity
+            android:name=".ProfileYouthPhotographer"
+            android:label="Youth Photographer"
+            android:parentActivityName=".ProfileYouthPhotographer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileYouthPhotographer" />
+        </activity>
+        <activity
+            android:name=".ProfileProfessionalPhotographer"
+            android:label="Professional Photographer"
+            android:parentActivityName=".ProfileProfessionalPhotographer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileProfessionalPhotographer" />
+        </activity>
+        <activity
+            android:name=".ProfileFashionStudio"
+            android:label="Fashion Studio"
+            android:parentActivityName=".ProfileFashionStudio">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileFashionStudio" />
+        </activity>
+        <activity
+            android:name=".FashionCoordinator"
+            android:label="Fashion Coordinators"
+            android:parentActivityName=".FashionCoordinator">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FashionCoordinator" />
+        </activity>
+        <activity
+            android:name=".ProfileCoordinator"
+            android:label="Fashion Coordinators"
+            android:parentActivityName=".ProfileCoordinator">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileCoordinator" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FaspireCities"
+            android:label="Cities"
+            android:parentActivityName=".FaspireCities">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireCities" />
+        </activity>
+        <activity android:name=".FaspireLogin"
+            android:label="Login"
+            android:parentActivityName=".FaspireLogin">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireLogin" />
+        </activity>
+        <activity android:name=".FaspireSignup"
+            android:label="Signup"
+            android:parentActivityName=".FaspireSignup">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaspireSignup" />
+        </activity>
+        <activity android:name=".OtpVerified"></activity>
+        
+        <service android:name=".Notification.FcmInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"></action>
+            </intent-filter>
+        </service>
+
+        <service android:name=".Notification.FcmMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"></action>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

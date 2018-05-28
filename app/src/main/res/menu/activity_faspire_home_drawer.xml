@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_apply"
+            android:icon="@drawable/ic_apply"
+            android:title="Apply" />
+        <item
+            android:id="@+id/nav_share_fasion"
+            android:icon="@drawable/ic_share"
+            android:title="Share your fashion News" />
+        <item
+            android:id="@+id/nav_associates"
+            android:icon="@drawable/ic_associates"
+            android:title="Associates" />
+        <item
+            android:id="@+id/nav_sponsour"
+            android:icon="@drawable/ic_sponsours"
+            android:title="Sponsors" />
+    </group>
+
+    <item android:title="@string/headlineSecond">
+        <menu>
+            <item
+                android:id="@+id/nav_services"
+                android:icon="@drawable/ic_service"
+                android:title="Services" />
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:icon="@drawable/ic_aboutus"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_contactus"
+                android:title="Contact us" />
+            <item
+                android:id="@+id/nav_Terms_services"
+                android:icon="@drawable/ic_terms_condition"
+                android:title="Terms and conditions" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context="com.example.gaursaurabh.faspire.FaspireJoin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <EditText
+        android:id="@+id/joinName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:singleLine="true"
+        style="@style/jointextBox"
+        android:layout_marginTop="12dp"
+        />
+
+    <EditText
+        android:id="@+id/joinNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/jointextBox"
+        android:hint="Number"
+        android:singleLine="true"
+        android:layout_marginTop="12dp"
+        />
+
+        <EditText
+            android:id="@+id/joinEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/jointextBox"
+            android:hint="Email"
+            android:singleLine="true"
+            android:layout_marginTop="12dp"
+            />
+
+        <EditText
+            android:id="@+id/joinCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/jointextBox"
+            android:hint="City"
+            android:singleLine="true"
+            android:layout_marginTop="12dp"
+            />
+
+        <Spinner
+            android:id="@+id/joinOccupation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffffff"
+            android:background="@drawable/editable_border"
+            android:layout_marginTop="12dp"
+            ></Spinner>
+
+        <EditText
+            android:id="@+id/joinOccupationEdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/joinQuery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:height="120dp"
+            style="@style/jointextBox"
+            android:hint="Brief About You..."
+            android:gravity="top"
+            android:layout_marginTop="12dp"
+            />
+
+        <CheckBox
+            android:id="@+id/joinCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="I Agree For Terms And Condition"
+            />
+
+        <EditText
+            android:id="@+id/joinCheckBoxEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/join_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@drawable/button_border"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/layoutClickable"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:padding="7sp"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:id="@+id/profileImage"
+            style="@style/profileimage_news_flash"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/headline"
+                style="@style/headline_news_flash"
+                />
+
+            <TextView
+                android:id="@+id/description"
+                style="@style/desc_news_flash"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/represnttext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/lastWhichWrite"
+                android:layout_marginTop="2dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

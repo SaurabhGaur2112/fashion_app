@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000000</item>
+    </style>
+
+    <style name="companyStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff0bcdd7</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="joinTxt">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#222222</item>
+    </style>
+
+    <style name="joinBoxTxt">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="txthomeNameColor">
+        <item name="android:textColor">#ff0bcdd7</item>
+    </style>
+
+    <style name="profileimage_news_flash">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="headline_news_flash">
+        <item name="android:layout_marginLeft">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="desc_news_flash">
+        <item name="android:layout_marginLeft">10sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="lastWhichWrite">
+        <item name="android:layout_marginLeft">10sp</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="imageSetCardView">
+        <item name="android:clickable">true</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="newsheadlinewrite">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="newsdescriptionwrite">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <style name="textStyleSetProfile">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="jointextBox">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/editable_border</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>

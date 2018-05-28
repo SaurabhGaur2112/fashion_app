@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.gaursaurabh.faspire.FaspireStart">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        style="@style/companyStyle"
+        android:layout_marginTop="150dp"
+        />
+
+    <TextView
+        android:id="@+id/faspireDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fashion Inspired People"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textColor="#ff656565"
+        android:layout_below="@id/appName"
+        />
+
+    <Button
+        android:id="@+id/skipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faspireDesc"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/start_button"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/joinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/skipButton"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/start_button"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        />
+
+</RelativeLayout>

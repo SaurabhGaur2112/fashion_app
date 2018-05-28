@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Faspire</string>
+    <string name="title_activity_faspire_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="headlineSecond"><font fgcolor="white">Link to us</font></string>
+</resources>
